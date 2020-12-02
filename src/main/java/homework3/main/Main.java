@@ -1,8 +1,9 @@
 package homework3.main;
 
 import homework3.model.*;
-import java.util.*;
 
+import java.util.*;
+//CTRL + F12
 public class Main {
 
     public static void main(String... args) {
@@ -15,6 +16,11 @@ public class Main {
         employees.add(employee1);
         employees.add(employee2);
         employees.add(employee3);
+
+        // List list = new ArrayList<String>();
+        // list.add("ABC");
+
+        // System.out.println(list.get(0));
 
         for (Employee employee : employees) {
             System.out.println(employee.toString() + "\n");
