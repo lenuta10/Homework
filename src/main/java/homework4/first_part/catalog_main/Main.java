@@ -44,6 +44,7 @@ public class Main implements java.io.Serializable {
                     System.out.println(item.toString());
                 }
             } catch (EOFException e) {
+                System.out.println(e.getMessage());
             }
 
             objectInputStream.close();
@@ -54,9 +55,7 @@ public class Main implements java.io.Serializable {
             System.out.println("**** List of the remaining items ****");
             catalog.listItems();
 
-        } catch (IOException e) {
-            System.out.println(e.getMessage());
-        } catch (ClassNotFoundException e) {
+        } catch (IOException | ClassNotFoundException e) {
             System.out.println(e.getMessage());
         }
     }

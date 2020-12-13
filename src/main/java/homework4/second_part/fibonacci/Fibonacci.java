@@ -1,7 +1,7 @@
-package homework4.second_part.Fibonacci;
+package homework4.second_part.fibonacci;
 
-import homework4.second_part.Exception.NullValidationException;
-import homework4.second_part.Exception.ValidationException;
+import homework4.second_part.exception.NullValidationException;
+import homework4.second_part.exception.ValidationException;
 
 import java.io.BufferedReader;
 import java.io.IOException;

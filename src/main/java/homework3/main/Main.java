@@ -78,5 +78,8 @@ public class Main {
                 System.out.println(hobby.toString() + "\n");
             }
         }
+
+
+        System.out.println(((Person) new Student("sfsd", 1, StudentType.PRIMARY)).toString());
     }
 }

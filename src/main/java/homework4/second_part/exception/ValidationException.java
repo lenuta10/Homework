@@ -1,4 +1,4 @@
-package homework4.second_part.Exception;
+package homework4.second_part.exception;
 
 public class ValidationException extends Exception {
 
